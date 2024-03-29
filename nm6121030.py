@@ -34,7 +34,7 @@ def plot_data(data, eps, min_samples, labels, input_file):
     plt.show()
 
 
-def dbscan_clustering(data, eps=0.1, min_samples=20):
+def dbscan_clustering(data, eps=0.2, min_samples=20):
     # hyperparameters
     # eps: The maximum distance between two samples for one to be considered as in the neighborhood of the other.
     # min_samples: The number of samples (or total weight) in a neighborhood for a point to be considered as a core point.
@@ -57,7 +57,7 @@ if __name__ == "__main__":
     parser.add_argument(
         "--input", type=str, default="Clustering_testdata/Clustering_test1", help="input file name"
     )
-    parser.add_argument("--eps", type=float, default=0.265, help="eps")
+    parser.add_argument("--eps", type=float, default=0.20, help="eps")
     parser.add_argument("--min_samples", type=int, default=20, help="min_samples")
     parser.add_argument("--output", type=str, default="output", help="output file name")
     args = parser.parse_args()
