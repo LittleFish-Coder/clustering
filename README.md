@@ -12,21 +12,21 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a cluste
 
    - eps=0.25
    - min_samples=20
-   - clusters: 5 (including noise)
+   - clusters: 4 (without noise)
      ![Clustering_test1](Clustering_testdata/Clustering_test1_output.png)
 
 2. Clustering_testdata/Clustering_test2
 
    - eps=0.20
    - min_samples=20
-   - clusters: 5 (including noise)
+   - clusters: 4 (without noise)
      ![Clustering_test2](Clustering_testdata/Clustering_test2_output.png)
 
 3. Clustering_testdata/Clustering_test3
 
    - eps=0.23
    - min_samples=20
-   - clusters: 6 (including noise)
+   - clusters: 5 (without noise)
      ![Clustering_test3](Clustering_testdata/Clustering_test3_output.png)
      This dataset is a bit more complex than the previous two datasets. I've tried to find the optimal values for epsilon and min_samples. This is the best result I could get.
 
@@ -34,13 +34,13 @@ DBSCAN (Density-Based Spatial Clustering of Applications with Noise) is a cluste
 
    - eps=0.26
    - min_samples=25
-   - clusters: 3 (including noise)
+   - clusters: 2 (without noise)
    - ![Clustering_test4](Clustering_testdata/Clustering_test4_output.png)
 
 5. Clustering_testdata/Clustering_test5
    - eps=0.265
    - min_samples=20
-   - clusters: 3 (including noise)
+   - clusters: 2 (without noise)
      ![Clustering_test5](Clustering_testdata/Clustering_test5_output.png)
 
 ## Final Output Format
